@@ -4,6 +4,7 @@
 
 from this import s
 from tkinter import N
+from unittest import result
 
 
 # n = float(input('введите число = '))
@@ -32,9 +33,23 @@ from tkinter import N
 # Пример: пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 # n =int(input('введите число ='))
-# list_n = []
+# results = []
 # task_n = 1
 # for i in range (1,n+1):
-#     list_n.append(task_n)
 #     task_n = task_n* i
-# print (f'для n= {n}: произведение {list_n}')
+#     results.append(task_n)
+# print (f'для n= {n}: произведение {results}')
+
+# 17. Задайте список из N элементов, заполненных числами из промежутка [-N, N].
+# Найдите произведение элементов на введенных пользователем позициях.
+
+# N =int(input('введите N ='))
+# results = list(range (-N,N+1))
+# print (f'для n= {N}: список {results}')
+
+# P1 = int(input('введите номер элемента 1 ='))
+# P2 = int(input('введите номер элемента 2 ='))
+# P1 = results[P1]
+# P2 = results[P2]
+# S=P1*P2
+# print(f' 1= {P1}, 2= {P2}, произведение= {S}')
