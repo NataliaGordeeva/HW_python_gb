@@ -2,20 +2,22 @@
 # и показывает сумму его цифр.
 # Пример: 6782 -> 23, 0,56 -> 11
 
-from this import s
-from tkinter import N
 from unittest import result
 
 
-# n = float(input('введите число = '))
-# my_n = [n]
-# sum_n = 0
-# for n in my_n:
-#     sum_n += n
+n = float(input('введите число = '))
+result = 0
+while(n > 0):
+    s = n % 10
+    result=result + s
+    n = n//10
+print("Сумма =", result)
 
-# print(sum_n)
-
-
+# sum = 0
+# for i in float_num:
+#     if i != '.':
+#         sum += int(i)
+# print(sum)
 
 #16. Задайте список из n чисел последовательности (1+1/n)^n и выведите 
 # на экран их сумму.
