@@ -24,8 +24,9 @@ from unittest import result
 # n =int(input('введите n ='))
 # dictionary = {}
 # for i in range(1,n+1):
-#     dictionary[i]= (1+(1/i)**i)
+#     dictionary[i]= round(((1+1/i)**i),2)
 # print(dictionary)
+
 
 
 # 15. Напишите программу, которая принимает на вход число N и выдает
